@@ -19,9 +19,16 @@
               "homepage": "http://www.ppi.io/contributors"
           }
     ],
+    "repositories": [
+       {
+         "type": "vcs",
+         "url": "https://github.com/code-ph0y/framework"
+       }
+    ],
     "require": {
-        "ppi/framework": "2.1.x-dev",
-        "ppi/distribution-module": "~1.0"
+        "ppi/framework": "dev-master",
+        "ppi/distribution-module": "dev-master",
+        "ppi/datasource-module": "^1.0"
     },
     "scripts": {
         "post-install-cmd": [

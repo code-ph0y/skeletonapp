@@ -3,8 +3,9 @@ app/cache/*
 app/FrameworkRequirements.php
 app/logs/*
 public/modules/*
-vendor
+vendor/*
 composer.phar
+composer.lock
 
 # Backup files created by IDEs
 *~
